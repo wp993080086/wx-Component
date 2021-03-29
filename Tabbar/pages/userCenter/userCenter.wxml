@@ -1,0 +1,5 @@
+<view class="dialog pf z9 flex_c" wx:if="{{ show }}" bindtap="switchDialog">
+  <text class="white ft20">个人中心</text>
+</view>
+
+<Tabbar nowIndex="2" bind:switchDialog="switchDialog"/>

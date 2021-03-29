@@ -1,0 +1,14 @@
+<view class="tabbar-main pf flex flex_a_s bg_white z1">
+  <view class="tabbar-item" wx:for="{{ tabbarList }}" wx:key="index" data-path="{{ item.pagePath }}" bindtap="changePage" data-index="{{ index }}">
+    <view class="tabbar_icon flex_c"  wx:if="{{ item.index !== 1 }}">
+      <image src="{{ item.onIcon }}" class="icon" wx:if="{{ nowIndex === index }}"></image>
+      <image src="{{ item.icon }}" class="icon" wx:else></image>
+    </view>
+    <view class="tabbar_look flex_c" wx:else>
+      <image src="{{ item.icon }}" class="look"></image>
+    </view>
+    <view class="tabbar_title text_c" wx:if="{{ item.index !== 1 }}">
+      <text class="ft12" style="color:{{ nowIndex === index ? item.onColor : item.color }}">{{ item.title }}</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,1 @@
+<text class="{{ item.deep ? 'green' : '' }}" wx:for="{{ highlightList }}" wx:key="index">{{ item.val }}</text>

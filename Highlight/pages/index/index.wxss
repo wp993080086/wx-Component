@@ -1,0 +1,21 @@
+.search_box{
+  padding: 20rpx;
+  background-color: rgba(200,200,200,.5);
+}
+.search{
+  height: 70rpx;
+  border: 2rpx solid #F1F1F1;
+  border-radius: 35rpx;
+  background-color: #FFFFFF;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  text-align: center;
+}
+.list_li{
+  height: 80rpx;
+  font-size: 28rpx;
+  line-height: 80rpx;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  border-bottom: 2rpx solid #F1F1F1;
+}

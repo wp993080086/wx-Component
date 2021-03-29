@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "highlight":"../../components/highlight/highlight"
+  }
+}

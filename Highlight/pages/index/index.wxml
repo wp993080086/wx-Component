@@ -1,0 +1,7 @@
+<view class="search_box">
+  <input type="text" placeholder="请输入武汉的985/211大学" bindinput="searchValue" class="search"/>
+</view>
+
+<view class="list_li" wx:for="{{ filterList }}" wx:key="index" data-index="{{ index }}" bindtap="pitchOn">
+  <highlight text="{{ item }}" key="{{ value }}" />
+</view>

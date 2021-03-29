@@ -1,0 +1,8 @@
+<view class="text_c"><text class="red ft20">自定义Tabbar</text></view>
+
+
+<view class="dialog pf z9 flex_c" wx:if="{{ show }}" bindtap="switchDialog">
+  <text class="white ft20">首页</text>
+</view>
+
+<Tabbar nowIndex="0" bind:switchDialog="switchDialog"/>

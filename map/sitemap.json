@@ -1,0 +1,7 @@
+{
+  "desc": "developer：鹏多多 GitHub：",
+  "rules": [{
+  "action": "allow",
+  "page": "*"
+  }]
+}

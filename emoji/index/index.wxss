@@ -1,0 +1,11 @@
+@import "/style/emoji.wxss";
+.main{
+  width: 100vw;
+  height: 100vh;
+}
+.emoji{
+  width: 72.5rpx;
+  height: 72.5rpx;
+  background-repeat: no-repeat;
+  background-size: 1434rpx;
+}

@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/map/map"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用推荐附近设施"
+    }
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#19C29C",
+    "navigationBarTitleText": "地图",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

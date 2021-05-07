@@ -11,14 +11,13 @@ Page({
       { type:0, title:'娱乐' },
       { type:0, title:'学校' }
     ],
-    facility:"地铁",
+    facility:"餐饮",
     latitude:null,//纬度
     longitude:null,//经度
   },
   // 搜索设施
   searchFacility(e){
     let val = e.currentTarget.dataset.title;
-    console.log(val)
     this.getLocation(val);
   },
   // 定位当前经纬

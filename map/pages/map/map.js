@@ -5,11 +5,11 @@ Page({
   data: {
     facilityList:[
       { type:0, title:'地铁' },
-      { type:0, title:'医院' },
-      { type:0, title:'超市' },
-      { type:0, title:'餐饮' },
-      { type:0, title:'娱乐' },
-      { type:0, title:'学校' }
+      { type:1, title:'医院' },
+      { type:2, title:'超市' },
+      { type:3, title:'餐饮' },
+      { type:4, title:'娱乐' },
+      { type:5, title:'学校' }
     ],
     facility:"餐饮",
     latitude:null,//纬度
@@ -65,7 +65,6 @@ Page({
             }
           })
         }
-        console.log(mks)
         _this.setData({ //设置markers属性，将搜索结果显示在地图中
           markers: mks
         })

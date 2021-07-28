@@ -23,7 +23,7 @@ Component({
   methods: {
     // 非空过滤
     _changeText(e){
-      if(e.length > 0 && this.properties.text.indexOf(e) > -1){
+      if(e.length > 0){
         this._filterHighlight(this.properties.text, e);
       }
     },

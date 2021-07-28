@@ -1,5 +1,7 @@
-# ComponentWarehouse
-# 组件仓库
+# wxComponentWarehouse
+
+# 微信小程序组件库
+
 ## 目录
 
 1，小程序自定义Tabbar组件

@@ -1,4 +1,10 @@
-<view class="main flex_c">
-  <view class="emoji emoji_1"></view>
-  <view class="emoji emoji_17"></view>
+<view class="main pf">
+  <scroll-view
+    class="scroll"
+    scroll-y="true"
+    show-scrollbar="false"
+    enhanced="true"
+  >
+    <view class="emoji emoji_{{ index+1 }}" wx:for="{{128}}" wx:key="index"></view>
+  </scroll-view>
 </view>

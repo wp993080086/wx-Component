@@ -1,10 +1,28 @@
-<view class="main pf">
+<view class="chat pf flex_c" style="bottom: {{ newHeight + 'px' }}">
+  <view class="chat_left flex_c">
+    <image src="../image/voice.png" class="voice"></image>
+  </view>
+  <view class="chat_centre br4">
+    <input type="text" placeholder="快来体验emoji吧" class="chat_ipt ft14" bindfocus="focusEvent" />
+  </view>
+  <view class="chat_right flex_c">
+    <image src="../image/emoji.png" class="emoji_s" bindtap="showEmoji" wx:if="{{ !isShow }}"></image>
+    <image src="../image/keyboard.png" class="keyboard" bindtap="showKeyboard" wx:else></image>
+  </view>
+</view>
+<!-- <view class="main pf">
   <scroll-view
     class="scroll"
     scroll-y="true"
     show-scrollbar="false"
     enhanced="true"
   >
-    <view class="emoji emoji_{{ index+1 }}" wx:for="{{128}}" wx:key="index"></view>
+    <view
+      class="emoji emoji_{{ index+1 }}"
+      wx:for="{{128}}"
+      wx:key="index"
+      data-index="{{index + 1}}"
+      bindtap="clickEvent"
+    ></view>
   </scroll-view>
-</view>
+</view> -->

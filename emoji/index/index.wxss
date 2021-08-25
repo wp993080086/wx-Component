@@ -1,4 +1,44 @@
 @import "/style/emoji.wxss";
+.chat{
+  width: 100%;
+  height: 120rpx;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  left: 0;
+  bottom: 0;
+}
+.chat_left{
+  width: 120rpx;
+  height: 100%;
+}
+.voice{
+  width: 64rpx;
+  height: 64rpx;
+}
+.chat_right{
+  width: 120rpx;
+  height: 100%;
+}
+.emoji_s{
+  width: 64rpx;
+  height: 64rpx;
+}
+.keyboard{
+  width: 64rpx;
+  height: 64rpx;
+}
+.chat_centre{
+  flex: 1;
+  height: 80rpx;
+  background-color: #F7F8FA;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+}
+.chat_ipt{
+  width: 100%;
+  height: 100%;
+  line-height: 80rpx;
+}
 .main{
   width: 100vw;
   height: 400rpx;
